@@ -22,7 +22,8 @@ let numElementi = parseInt(prompt('Quanti elementi vuoi?'));
 let arrayVuoto = [];
 
 for (i = 0; i < numElementi; i++){
-//console.log(arrayVuoto);
+    arrayVuoto[i] = RndNumberGen(1, 100);
+    console.log(arrayVuoto);
 };
 
 let numVisibili = parseInt(prompt('Quanti elementi vuoi vedere, a partire dal fondo dell\'elenco?'));
