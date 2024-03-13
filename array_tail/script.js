@@ -31,7 +31,7 @@ let numVisibili = parseInt(prompt('Quanti elementi vuoi vedere, a partire dal fo
 if(numVisibili > arrayVuoto.length){
     console.log('Mi sembra una richiesta esagerata... Non ci sono abbastanza elementi!')
 } else {
-    console.log(arrayVuoto.slice(-5));
+    console.log(arrayVuoto.slice(-numVisibili));
 }
 
 /* VERSIONE ALTERNATIVA
