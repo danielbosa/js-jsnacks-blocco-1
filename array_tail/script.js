@@ -32,9 +32,6 @@ if(numVisibili > arrayVuoto.length){
     console.log('Mi sembra una richiesta esagerata... Non ci sono abbastanza elementi!')
 } else {
     console.log(arrayVuoto.slice(-5));
-    for(i = numVisibili; i >= 1; i--){
-        console.log(arrayVuoto[arrayVuoto.length - i]);
-    };
 }
 
 /* VERSIONE ALTERNATIVA
